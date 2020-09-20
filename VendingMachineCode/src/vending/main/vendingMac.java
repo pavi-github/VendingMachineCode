@@ -30,11 +30,13 @@ public class vendingMac {
 			System.out.println("\nPress 0 to EXIT");
 			System.out.println("\nEnter the Product Code : ");
 			code = get.nextInt();
-
+			
+			// amtCal newcal = new amtCal();
+			// newcal.calc(code);
+			
 		} while (code != 0);
 
-		// amtCal newcal = new amtCal();
-		// newcal.calc(code);
+
 
 		System.out.println("Thanks for using the Vending Machine. See you again!");
 	}
