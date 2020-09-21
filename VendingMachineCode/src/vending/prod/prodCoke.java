@@ -23,16 +23,16 @@ public class prodCoke {
 		int result;
 		if (amount > 25) {
 			result = amount - 25;
-			System.out.println("Your Product is here : " + Prod1);
-			System.out.println("Change is : " + result);
+			System.out.println("\nYour Product is here : " + Prod1);
+			System.out.println("\nChange is : " + result);
 			stockCoke = stockCoke - 1 ;
 		} else if (amount < 25) {
-			System.out.println("Your Product is here : " + Prod1);
-			System.out.println("Insufficient Amount. Please put correct Amount to get Product Coke ");
-			stockCoke = stockCoke - 1 ;
+			System.out.println("\nYour Product is here : " + Prod1);
+			System.out.println("\nInsufficient Amount. Please put correct Amount to get Product Coke ");
+			//stockCoke = stockCoke - 1 ;			
 		} else {
-			System.out.println("Your Product is here : " + Prod1);
-			System.out.println("Given Amount is Correct. No change required ");
+			System.out.println("\nYour Product is here : " + Prod1);
+			System.out.println("\nGiven Amount is Correct. No change required ");
 			stockCoke = stockCoke - 1 ;
 		}
 

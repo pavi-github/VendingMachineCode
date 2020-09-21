@@ -1,5 +1,6 @@
 package vending.main;
 
+import java.io.IOException;
 import java.util.*;
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ import vending.prod.prodPepsi;
 import vending.prod.prodSoda;
 
 public class vendingMac {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		Scanner get = new Scanner(System.in);
 		int menucode;
@@ -48,11 +49,15 @@ public class vendingMac {
 				break;
 			case 3:
 				System.out.println("Thanks for using the Vending Machine. See you again!");
+				System.exit(0);
 				break;
 			default:
 				System.out.println("Invalid Choice");
 				break;
 			}
+			
+			System.out.println("\nPress any key to continue....");
+			int str = System.in.read();
 			
 		} while (menucode != 3);
 		get.close();		

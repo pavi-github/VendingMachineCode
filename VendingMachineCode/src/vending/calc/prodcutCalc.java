@@ -1,5 +1,6 @@
 package vending.calc;
 
+import java.io.IOException;
 import java.util.*;
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ import vending.prod.prodSoda;
 
 public class prodcutCalc {
 
-	public void calc() {
+	public void calc() throws IOException {
 
 		Scanner get = new Scanner(System.in);
 		int code;
@@ -54,7 +55,11 @@ public class prodcutCalc {
 			default:
 				System.out.println("Invalid Choice");
 				break;
-			}
+			}			
+            			
+			System.out.println("\nPress any key to continue....");
+			int str = System.in.read();			
+			
 		} while (code != 999);
 	}
 }
