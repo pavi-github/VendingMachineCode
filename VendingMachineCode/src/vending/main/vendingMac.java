@@ -3,7 +3,7 @@ package vending.main;
 import java.util.*;
 import java.util.Scanner;
 
-import vending.calc.amtCal;
+import vending.calc.prodcutCalc;
 import vending.prod.prodCoke;
 import vending.prod.prodPepsi;
 import vending.prod.prodSoda;
@@ -26,7 +26,7 @@ public class vendingMac {
 			
 			System.out.println("1. Start Vending Machine");
 			System.out.println("2. Supplier View");
-			System.out.println("3. Press 0 to EXIT");
+			System.out.println("3. EXIT");
 			
 			System.out.println("-----------------------------");
 			
@@ -35,7 +35,7 @@ public class vendingMac {
 		
 			switch (menucode) {
 			case 1:
-				 amtCal newcal = new amtCal();
+				 prodcutCalc newcal = new prodcutCalc();
 				 newcal.calc();
 				break;
 			case 2:

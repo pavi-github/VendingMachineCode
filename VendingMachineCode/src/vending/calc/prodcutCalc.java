@@ -7,7 +7,7 @@ import vending.prod.prodCoke;
 import vending.prod.prodPepsi;
 import vending.prod.prodSoda;
 
-public class amtCal {
+public class prodcutCalc {
 
 	public void calc() {
 
