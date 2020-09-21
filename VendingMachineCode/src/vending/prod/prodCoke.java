@@ -9,7 +9,6 @@ public class prodCoke {
 	int Code = 1;
 	static int stockCoke = 5;
 
-	// public void prodCoke () {
 	public void printCoke() {
 		System.out.println(Price + "\t" + Prod1 + "\t" + Code);
 

@@ -15,12 +15,6 @@ public class prodcutCalc {
 		int code;
 		int amount;
 
-		// System.out.println("Enter the Amount:");
-		// int amount = get.nextInt();
-
-		// System.out.println("Selected Product is : " +prodCode);
-		// System.out.println("Amount : " +amount);
-
 		prodCoke objCoke = new prodCoke();
 		prodPepsi objPepsi = new prodPepsi();
 		prodSoda objSoda = new prodSoda();

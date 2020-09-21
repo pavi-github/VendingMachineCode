@@ -18,8 +18,7 @@ public class prodSoda {
 	}
 
 	public void calcSoda(int amount) {
-		int result;
-		
+		int result;		
 		if (amount > 45) {
 			System.out.println("Your Product is here : " + Prod1);
 			result = amount - 45;
